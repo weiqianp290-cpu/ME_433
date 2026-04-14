@@ -21,6 +21,7 @@ target_include_directories(hw4c PRIVATE
 target_link_libraries(hw4c
     pico_stdlib
     hardware_i2c
+    hardware_adc
 )
 
 pico_enable_stdio_usb(hw4c 1)
