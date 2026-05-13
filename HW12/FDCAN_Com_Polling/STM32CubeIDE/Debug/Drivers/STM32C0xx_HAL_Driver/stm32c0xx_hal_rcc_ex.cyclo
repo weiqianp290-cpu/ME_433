@@ -1,0 +1,5 @@
+/Users/weiqianpeng/Documents/ME433/ME_433/HW12/FDCAN_Com_Polling/Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_rcc_ex.c:95:19:HAL_RCCEx_PeriphCLKConfig	16
+/Users/weiqianpeng/Documents/ME433/ME_433/HW12/FDCAN_Com_Polling/Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_rcc_ex.c:253:6:HAL_RCCEx_GetPeriphCLKConfig	1
+/Users/weiqianpeng/Documents/ME433/ME_433/HW12/FDCAN_Com_Polling/Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_rcc_ex.c:309:10:HAL_RCCEx_GetPeriphCLKFreq	35
+/Users/weiqianpeng/Documents/ME433/ME_433/HW12/FDCAN_Com_Polling/Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_rcc_ex.c:520:6:HAL_RCCEx_EnableLSCO	1
+/Users/weiqianpeng/Documents/ME433/ME_433/HW12/FDCAN_Com_Polling/Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_rcc_ex.c:545:6:HAL_RCCEx_DisableLSCO	1

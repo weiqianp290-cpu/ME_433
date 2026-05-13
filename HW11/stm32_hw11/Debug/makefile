@@ -61,8 +61,8 @@ all: main-build
 main-build: stm32_hw11.elf secondary-outputs
 
 # Tool invocations
-stm32_hw11.elf stm32_hw11.map: $(OBJS) $(USER_OBJS) /Users/weiqianpeng/Desktop/ME_433/HW11/stm32_hw11/STM32C092RCTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "stm32_hw11.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m0plus -T"/Users/weiqianpeng/Desktop/ME_433/HW11/stm32_hw11/STM32C092RCTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="stm32_hw11.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+stm32_hw11.elf stm32_hw11.map: $(OBJS) $(USER_OBJS) /Users/weiqianpeng/Documents/ME433/ME_433/HW11/stm32_hw11/STM32C092RCTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "stm32_hw11.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m0plus -T"/Users/weiqianpeng/Documents/ME433/ME_433/HW11/stm32_hw11/STM32C092RCTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="stm32_hw11.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

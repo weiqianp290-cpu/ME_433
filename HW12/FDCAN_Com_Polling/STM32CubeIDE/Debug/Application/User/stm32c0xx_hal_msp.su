@@ -1,0 +1,3 @@
+/Users/weiqianpeng/Documents/ME433/ME_433/HW12/FDCAN_Com_Polling/Src/stm32c0xx_hal_msp.c:62:6:HAL_MspInit	16	static
+/Users/weiqianpeng/Documents/ME433/ME_433/HW12/FDCAN_Com_Polling/Src/stm32c0xx_hal_msp.c:85:6:HAL_FDCAN_MspInit	88	static
+/Users/weiqianpeng/Documents/ME433/ME_433/HW12/FDCAN_Com_Polling/Src/stm32c0xx_hal_msp.c:133:6:HAL_FDCAN_MspDeInit	16	static
