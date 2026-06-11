@@ -4,3 +4,4 @@
 /Users/weiqianpeng/Documents/ME433/ME_433/HW12/FDCAN_Com_Polling/Src/stm32c0xx_it.c:112:6:PendSV_Handler	8	static
 /Users/weiqianpeng/Documents/ME433/ME_433/HW12/FDCAN_Com_Polling/Src/stm32c0xx_it.c:125:6:SysTick_Handler	8	static
 /Users/weiqianpeng/Documents/ME433/ME_433/HW12/FDCAN_Com_Polling/Src/stm32c0xx_it.c:146:6:EXTI4_15_IRQHandler	8	static
+/Users/weiqianpeng/Documents/ME433/ME_433/HW12/FDCAN_Com_Polling/Src/stm32c0xx_it.c:160:6:TIM2_IRQHandler	8	static
